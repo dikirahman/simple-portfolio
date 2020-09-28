@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+
+body {
+    font-size: 15pt;
+    font-family: 'DM Mono', monospace;
+    background: #fff;
+}
+
+.bg-purple {
+  background: #dd8aec;
+}
+.bg-green {
+  background: #6cdb8c;
+}
+.bg-yellow {
+  background: #e6c976;
+}
+.bg-red {
+  background: #f67567;
+}
+.biodata {
+  margin-top: 30px;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skill {
+  padding-top: 30px;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+.card-skill {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+}
+
+.card-skill-top-left {
+  border-top-left-radius: 155pt 155pt;
+  border-top-right-radius: 23pt 23pt;
+  border-bottom-left-radius: 20pt;
+  border-bottom-right-radius: 20pt;
+  border: none;
+}
+.card-skill-top-right {
+  border-top-left-radius: 23pt 23pt;
+  border-top-right-radius: 155pt 155pt;
+  border-bottom-left-radius: 20pt;
+  border-bottom-right-radius: 20pt;
+  border: none;
+}
+.card-skill-bottom-left {
+  border-bottom-left-radius: 155pt 155pt;
+  border-bottom-right-radius: 23pt 23pt;
+  border-top-left-radius: 20pt;
+  border-top-right-radius: 20pt;
+  border: none;
+}
+.card-skill-bottom-right {
+  border-bottom-right-radius: 155pt 155pt;
+  border-bottom-left-radius: 23pt 23pt;
+  border-top-left-radius: 20pt;
+  border: none;
+  border-top-right-radius: 20pt;
+}
+.card .card-text {
+  text-align: center;
+}
+.card .card-text p {
+  font-size: 16px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.nav-profile {
+  width: 80%;
+  margin-left: -100px;
+  float: left;
+}
