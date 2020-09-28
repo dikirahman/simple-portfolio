@@ -1,23 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
+:root {
+  --bg-light: #fff;
+  --bg-dark: #263238;
+  --color-purple: #dd8aec;
+  --color-green: #6cdb8c;
+  --color-yellow: #e6c976;
+  --color-red: #f67567;
+  --color-orange: #F89400;
+}
 
 body {
     font-size: 15pt;
     font-family: 'DM Mono', monospace;
-    background: #fff;
+    background: var(--bg-light);
 }
 
 .bg-purple {
-  background: #dd8aec;
+  background: var(--color-purple);
 }
 .bg-green {
-  background: #6cdb8c;
+  background: var(--color-green);
 }
 .bg-yellow {
-  background: #e6c976;
+  background: var(--color-yellow);
 }
 .bg-red {
-  background: #f67567;
+  background: var(--color-red);
 }
 .biodata {
   margin-top: 30px;
@@ -25,18 +34,17 @@ body {
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 -40px;
+  background-position: 10px -30px;
 }
 .profil h5 {
-  color: orange
+  color: var(--color-orange);
 }
 .profil .profesi {
   mix-blend-mode: screen;
-  color: orange
+  color: var(--color-orange);
 }
 .skill {
   margin-top: 30px;
-  background-color: #fff;
   padding-bottom: 30px;
 }
 .card-skill {
