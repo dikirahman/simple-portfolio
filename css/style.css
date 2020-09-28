@@ -21,12 +21,21 @@ body {
 }
 .biodata {
   margin-top: 30px;
+  padding-top: 30px;
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0 -40px;
+}
+.profil h5 {
+  color: orange
+}
+.profil .profesi {
+  mix-blend-mode: screen;
+  color: orange
 }
 .skill {
-  padding-top: 30px;
+  margin-top: 30px;
   background-color: #fff;
   padding-bottom: 30px;
 }
