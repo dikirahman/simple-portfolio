@@ -32,12 +32,14 @@ body {
 .biodata {
   margin-top: 30px;
   padding-top: 30px;
+  padding-bottom: 30px;
   background-image: url(../img/rocket/rocket-purple.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 10px -30px;
+  background-position: 0 -30px;
 }
 .profil h5 {
+  padding-top: 5px;
   color: var(--color-orange);
 }
 .profil h3 {
@@ -46,10 +48,12 @@ body {
 .profil p {
   mix-blend-mode: screen;
   color: var(--color-white);
+  padding-bottom: 30px;
 }
 .profil .profesi {
   mix-blend-mode: screen;
   color: var(--color-orange);
+  float: right
 }
 .skill {
   margin-top: 30px;
@@ -97,9 +101,4 @@ body {
   margin-top: 6px;
   margin-bottom: 15px;
   color: var(--color-white);
-}
-.nav-profile {
-  width: 80%;
-  margin-left: -100px;
-  float: left;
 }
