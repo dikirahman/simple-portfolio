@@ -8,6 +8,7 @@
   --color-yellow: #e6c976;
   --color-red: #f67567;
   --color-orange: #F89400;
+  --color-white: #fff;
 }
 
 body {
@@ -88,7 +89,7 @@ body {
   font-size: 16px;
   margin-top: 6px;
   margin-bottom: 15px;
-  color: #fff;
+  color: var(--color-white);
 }
 .nav-profile {
   width: 80%;
