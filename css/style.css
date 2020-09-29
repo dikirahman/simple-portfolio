@@ -78,6 +78,13 @@ body {
   border-bottom-right-radius: 20pt;
   border: none;
 }
+.card-skill-top-left:hover {
+  border: 2px solid red;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+}
 .card-skill-top-right {
   border-top-left-radius: 23pt 23pt;
   border-top-right-radius: 155pt 155pt;
