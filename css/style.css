@@ -7,7 +7,7 @@
   --color-green: #6cdb8c;
   --color-yellow: #e6c976;
   --color-red: #f67567;
-  --color-orange: #F89400;
+  --color-orange: #ff8a00;
   --color-white: #fff;
 }
 
@@ -42,7 +42,21 @@ body {
   width: 60px;
   height: 60px;
   float: right;
-  clip-path: circle(35%)
+  clip-path: circle(35%);
+  display: block;
+  overflow: hidden;
+}
+.half-circle {
+  position: absolute;
+  width: 60px;
+  right: 14.8px;
+  top: 30px;
+  height: 30px;
+  fill: none;
+  stroke: var(--color-orange);
+  stroke-width: 8;
+  stroke-linecap: round;
+  pointer-events: none;
 }
 .profil h5 {
   padding-top: 5px;
