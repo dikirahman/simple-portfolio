@@ -40,6 +40,13 @@ body {
 .profil h5 {
   color: var(--color-orange);
 }
+.profil h3 {
+  color: var(--color-white);
+}
+.profil p {
+  mix-blend-mode: screen;
+  color: var(--color-white);
+}
 .profil .profesi {
   mix-blend-mode: screen;
   color: var(--color-orange);
