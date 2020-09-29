@@ -38,6 +38,12 @@ body {
   background-size: cover;
   background-position: 0 -30px;
 }
+.profil .img-profil {
+  width: 50px;
+  height: 50px;
+  float: right;
+  border-radius: 50%;
+}
 .profil h5 {
   padding-top: 5px;
   color: var(--color-orange);
