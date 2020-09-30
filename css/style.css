@@ -93,9 +93,6 @@ body {
   border-bottom-right-radius: 20pt;
   border: none;
 }
-.card-skill-top-left:hover {
-  border: 2px solid red;
-}
 .card-skill-top-right {
   border-top-left-radius: 23pt 23pt;
   border-top-right-radius: 155pt 155pt;
