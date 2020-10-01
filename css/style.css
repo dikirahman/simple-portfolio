@@ -141,3 +141,15 @@ body {
   top: 40%;
   transform: translate(-50%, -50%);
 }
+.launch-skill {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: none;
+}
+.launch-skill .progress-skill {
+  background: rgba(250, 250, 250, 0.2);
+  color: var(--color-white);
+  border-radius: 5px;
+  width: auto;
+  height: 200px;
+}
