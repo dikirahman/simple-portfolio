@@ -1,10 +1,6 @@
 const biodata = document.getElementById('biodata');
-const programming = document.getElementById('programming');
-const design = document.getElementById('design');
-const analysis = document.getElementById('analysis');
-const dataScience = document.getElementById('data-science');
 const launchSkill = document.getElementById('launch-skill');
-const keahlian = document.getElementsByClassName('keahlian');
+const headerSkill = document.getElementById('header-skill');
 
 /*
 programming.addEventListener('click', function() {
@@ -31,5 +27,7 @@ dataScience.addEventListener('click',
 const ubahBackground = (skill, gambar) => {
   biodata.style.backgroundImage = `url(img/rocket/${gambar})`;
   launchSkill.style.display = 'block';
-  keahlian[0].innerHTML = `${skill}`;
+  headerSkill.innerText = skill;
+  
+  
 }

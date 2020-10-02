@@ -208,6 +208,9 @@ body {
   background-color: var(--color-white);
 }
 .StepProgress .StepProgress-item .text-header {
+  color: var(--color-yellow-2);
+}
+.StepProgress .StepProgress-item .text-content {
   color: var(--color-white);
 }
 
