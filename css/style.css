@@ -153,15 +153,55 @@ body {
 .progress-skill {
   background: rgba(250, 250, 250, 0.2);
   border-radius: 5px;
-  width: auto;
-  height: 200px;
 }
 .progress-skill-header {
-    
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-.progress-skill-header h3 {
-    background: linear-gradient(90deg,#ff8a00,#e52e71);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
+.progress-skill-header h4 {
+    color: var(--color-white);
+    padding: 5px 15px
+}
+.timeline-wrapper {
+padding-left:20px;
+font-size: 14px;
+}
+.StepProgress {
+position: relative;
+padding-left: 45px;
+list-style: none;
+}
+.StepProgress::before {
+display: inline-block;
+content: '';
+position: absolute;
+top: 0;
+left: 14px;
+width: 10px;
+height: 100%;
+border-left: 2px solid var(--color-red);
+}
+.StepProgress-item {
+position: relative;
+counter-increment: list;
+}
+.StepProgress-item:not(:last-child) {
+padding-bottom: 20px;
+}
+
+.StepProgress-item::after {
+content: '';
+display: inline-block;
+position: absolute;
+top: 0;
+left: -37px;
+width: 12px;
+height: 12px;
+border: 2px solid var(--color-red);
+border-radius: 50%;
+background-color: var(--color-white);
+}
+
+.StepProgress strong {
+display: block;
 }
