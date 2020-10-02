@@ -7,6 +7,7 @@
   --color-purple: #dd8aec;
   --color-green: #6cdb8c;
   --color-yellow: #e6c976;
+  --color-yellow-2: #FFBB00;
   --color-red: #f67567;
   --color-orange: #ff8a00;
   --color-white: #fff;
@@ -78,8 +79,11 @@ body {
 }
 .profil .profesi {
   mix-blend-mode: screen;
-  color: var(--color-orange);
-  float: right
+  background: var(--color-orange-gradient);
+  float: right;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 .skill {
   margin-top: 30px;
@@ -157,51 +161,56 @@ body {
 .progress-skill-header {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  margin-bottom: 10px;
 }
-.progress-skill-header h4 {
-    color: var(--color-white);
-    padding: 5px 15px
+.progress-skill-header span {
+  color: var(--color-white);
+  padding: 7px 17px;
+  font-size: 17px;
 }
 .timeline-wrapper {
-padding-left:20px;
-font-size: 14px;
+  padding-left:20px;
+  font-size: 14px;
 }
 .StepProgress {
-position: relative;
-padding-left: 45px;
-list-style: none;
+  position: relative;
+  padding-left: 45px;
+  list-style: none;
 }
 .StepProgress::before {
-display: inline-block;
-content: '';
-position: absolute;
-top: 0;
-left: 14px;
-width: 10px;
-height: 100%;
-border-left: 2px solid var(--color-red);
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 13.5px;
+  width: 10px;
+  height: 100%;
+  border-left: 2px solid var(--color-red);
 }
 .StepProgress-item {
-position: relative;
-counter-increment: list;
+  position: relative;
+  counter-increment: list;
 }
 .StepProgress-item:not(:last-child) {
-padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .StepProgress-item::after {
-content: '';
-display: inline-block;
-position: absolute;
-top: 0;
-left: -37px;
-width: 12px;
-height: 12px;
-border: 2px solid var(--color-red);
-border-radius: 50%;
-background-color: var(--color-white);
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -37px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--color-red);
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+.StepProgress .StepProgress-item .text-header {
+  color: var(--color-white);
 }
 
 .StepProgress strong {
-display: block;
+  display: block;
 }
