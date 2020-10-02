@@ -11,6 +11,7 @@
   --color-orange: #ff8a00;
   --color-white: #fff;
   --color-blue: #3443E9;
+  --color-orange-gradient: linear-gradient(90deg,#ff8a00,#e52e71);
 }
 
 body {
@@ -30,6 +31,9 @@ body {
 }
 .bg-red {
   background: var(--color-red);
+}
+.bg-orange-gradient {
+  background: var(--color-orange-gradient);
 }
 .biodata {
   margin-top: 30px;
@@ -144,12 +148,20 @@ body {
 .launch-skill {
   margin-top: 30px;
   margin-bottom: 30px;
-  display: none;
+  display: none
 }
-.launch-skill .progress-skill {
+.progress-skill {
   background: rgba(250, 250, 250, 0.2);
-  color: var(--color-white);
   border-radius: 5px;
   width: auto;
   height: 200px;
+}
+.progress-skill-header {
+    
+}
+.progress-skill-header h3 {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
 }
