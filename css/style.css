@@ -152,7 +152,8 @@ body {
 .launch-skill {
   margin-top: 30px;
   margin-bottom: 30px;
-  display: none
+  display: none;
+  overflow: hidden;
 }
 .progress-skill {
   background: rgba(250, 250, 250, 0.2);
@@ -171,6 +172,7 @@ body {
 .timeline-wrapper {
   padding-left:20px;
   font-size: 14px;
+  padding-bottom: 20px;
 }
 .StepProgress {
   position: relative;

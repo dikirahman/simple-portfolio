@@ -48,7 +48,8 @@
               <span id="header-skill">vv</span>
             </header>
             <div class="line-progress">
-          <div class="timeline-wrapper">
+          <!-- programming -->
+          <div class="timeline-wrapper" id="skill-programming">
           <ul class="StepProgress">
             <li class="StepProgress-item">
               <div class="text-header">PHP</div>
@@ -57,11 +58,37 @@
                 Laravel
               </div>
             </li>
+            <li class="StepProgress-item">
+              <div class="text-header">
+                Python
+              </div>
+            </li>
+            <li class="StepProgress-item">
+              <div class="text-header">
+                  JavaScript
+              </div>
+              <div class="text-content">
+                React 
+              </div>
+              <div class="text-content">
+                Angular
+              </div>
+            </li>     
           </ul>
           </div>
-            </div>
-            <div class="keahlian">
-              programming
+          
+          <!-- design -->
+          <div class="timeline-wrapper" id="skill-design">
+            <ul class="StepProgress">
+              <li class="StepProgress-item">
+                <div class="text-header">Adobe XD</div>
+              </li> 
+              <li class="StepProgress-item">
+                <div class="text-header">UI &UX </div>
+              </li>         
+            </ul>
+          </div>
+          </div>
             </div>
           </div>
         </div>
@@ -73,7 +100,7 @@
     <div class="container">
       <div class="row">
         <div class="col-6 card-skill">
-          <div class="card shadow bg-purple card-skill-top-left" id="programming" onclick="ubahBackground('Programming', 'rocket-purple.svg')" >
+          <div class="card shadow bg-purple card-skill-top-left" id="programming" onclick="tampilkanSkill('Programming', 'rocket-purple.svg')" >
             <div class="card-body">
               <img class="" src="img/skill/programming.svg" alt="programming" style="margin-top:-20px;margin-bottom: -10px;" />
             </div>
@@ -84,7 +111,7 @@
         </div>
         
           <div class="col-6 card-skill">
-              <div class="card shadow bg-green card-skill-top-right" id="design" onclick="ubahBackground('Design', 'rocket-green.svg')">
+              <div class="card shadow bg-green card-skill-top-right" id="design" onclick="tampilkanSkill('Design', 'rocket-green.svg')">
                 <div class="card-body">
                   <img class="" src="img/skill/design.svg" alt="design" style="margin-top:-20px;margin-bottom:-10px;" />
                 </div>
@@ -95,7 +122,7 @@
             </div>
   
     <div class="col-6 card-skill">
-      <div class="card shadow bg-yellow card-skill-bottom-left" id="analysis">
+      <div class="card shadow bg-yellow card-skill-bottom-left" id="analysis" onclick="tampilkanSkill('Analysis', 'rocket-yellow.svg')">
           <div class="card-text">
             <p>Analysis</p>
           </div>
@@ -107,7 +134,7 @@
     </div>
     
     <div class="col-6 card-skill">
-      <div class="card shadow bg-red card-skill-bottom-right" id="data-science">
+      <div class="card shadow bg-red card-skill-bottom-right" id="data-science" onclick="tampilkanSkill('Data Science', 'rocket-red.svg')"  >
           <div class="card-text">
             <p>Data Science</p>
           </div>
@@ -126,7 +153,7 @@
       <div class="row">
         <div class="col-12">
       <p>
-        Find a issue with this page? <a href="">Fix it on Github</a>
+        Find a issue with this page? <a href="https://github.com/dikirahman/simple-porfolio">Fix it on Github</a>
       </p>
       <div class="line">
       </div>
